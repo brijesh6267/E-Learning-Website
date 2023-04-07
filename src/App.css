@@ -28,11 +28,11 @@
 	color: #656566;
 	font-size: 2em;
 	padding: 10px 30px;
-	border-radius: 10%;
-	border-width: 0;
+	border-radius: 5%;
+	border-width: 2%;
 	background-color: #42333a;
-	border-style: none;
-	border-color: none;
+	border-style: outset;
+	border-color: #271f22;
 }
 .Std-btn:hover {
 	transition-duration: 300ms;
