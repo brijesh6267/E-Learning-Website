@@ -115,3 +115,68 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 }
+@media (max-width: 768px) and (min-width: 481px) {
+	.Home h2 {
+		font-size: 3em;
+	}
+	.Header {
+		flex-direction: column-reverse;
+	}
+	.Nav {
+		flex-direction: row;
+		width: 100%;
+	}
+	.Main {
+		width: 100%;
+	}
+	.Footer {
+		display: none;
+	}
+	.Std-btn {
+		width: 4em;
+		font-size: medium;
+	}
+	.Links {
+		display: flex;
+		font-size: 1.3em;
+		align-items: center;
+		justify-content: center;
+	}
+}
+@media (max-width: 480px) {
+	.Home h1 {
+		font-size: 1.5em;
+	}
+	.Home h2 {
+		font-size: 2em;
+	}
+	.Home p {
+		font-size: 1em;
+		line-height: 3em;
+	}
+	.Header {
+		flex-direction: column-reverse;
+	}
+	.Nav {
+		flex-direction: row;
+		width: 100%;
+	}
+	.Main {
+		width: 100%;
+		justify-content: space-around;
+	}
+	.Footer {
+		display: none;
+	}
+	.Std-btn {
+		width: 3.5em;
+		font-size: small;
+	}
+	.Links {
+		display: flex;
+		font-size: 1.3em;
+		align-items: center;
+		justify-content: center;
+		margin: 1.5em 4em;
+	}
+}
