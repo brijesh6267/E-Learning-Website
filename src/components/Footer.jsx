@@ -3,8 +3,12 @@ function Footer() {
 	return (
 		<div className="Footer">
 			<p>Connect With Us</p>
-			<a>LinkedIn</a>
-			<a>Github</a>
+			<a href="https://www.linkedin.com/in/anurag41682/" target="_blank">
+				LinkedIn
+			</a>
+			<a href="https://github.com/Anurag41682" target="_blank">
+				Github
+			</a>
 		</div>
 	);
 }
