@@ -125,14 +125,17 @@ a:hover {
 	.Nav {
 		flex-direction: row;
 		width: 100%;
+		height: 10%;
 	}
 	.Main {
 		width: 100%;
+		height: 90%;
 	}
 	.Footer {
 		display: none;
 	}
 	.Std-btn {
+		height: 3em;
 		width: 4em;
 		font-size: medium;
 	}
@@ -160,8 +163,10 @@ a:hover {
 	.Nav {
 		flex-direction: row;
 		width: 100%;
+		height: 10%;
 	}
 	.Main {
+		height: 90%;
 		width: 100%;
 		justify-content: space-around;
 	}
@@ -169,6 +174,7 @@ a:hover {
 		display: none;
 	}
 	.Std-btn {
+		height: 2em;
 		width: 3.5em;
 		font-size: small;
 	}
