@@ -4,7 +4,7 @@ import "../App.css";
 function _12th() {
 	return (
 		<div className="_12th">
-			<h1>Important Links :</h1>
+			<h1>Download Links :</h1>
 			<section className="Links-section">
 				<Links
 					lnk="https://ncert.nic.in/textbook/pdf/lemh1dd.zip"

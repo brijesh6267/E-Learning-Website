@@ -22,7 +22,7 @@ function Main(props) {
 	}
 	return (
 		<div className="Main">
-			<div className="waterMark"></div>
+			{/* <div className="waterMark"></div> */}
 			{temp}
 		</div>
 	);
