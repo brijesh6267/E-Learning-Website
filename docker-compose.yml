@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  reactapp:
+  # path of Dockerfile with respect to this file
+    build: .
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
+    
