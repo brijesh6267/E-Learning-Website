@@ -11,3 +11,7 @@ COPY . .
 EXPOSE 3000
 # starting command for app, Each word at separate index in array
 CMD [ "npm","start" ]
+#commands for making image
+#sudo docker-compose up
+#sudo docker-compose up --build
+
