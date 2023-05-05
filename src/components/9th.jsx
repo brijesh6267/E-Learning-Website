@@ -1,9 +1,8 @@
 import Links from "./Links";
-import Videos from "./Videos";
 import "../App.css";
 function _9th() {
 	return (
-		<div className="_9th">
+		<div className="_9th class">
 			<h1>Download Links :</h1>
 			<section className="Links-section">
 				<Links
@@ -43,11 +42,11 @@ function _9th() {
 					content="History NCERT Book"
 				></Links>
 			</section>
-			<h1>Video Tutorials :</h1>
-			<section className="Videos-section">
-				{/* <Videos lnk="https://www.youtube.com/embed/fUJ3ULyyA-Y/"></Videos> */}
+			{/* <h1>Video Tutorials :</h1> */}
+			{/* <section className="Videos-section">
+				<Videos lnk="https://www.youtube.com/embed/fUJ3ULyyA-Y/"></Videos>
 				Coming Soon...
-			</section>
+			</section> */}
 		</div>
 	);
 }
